@@ -12,7 +12,7 @@ const listHeroes = async () => {
 
 const getHeroById = async (heroId) => {
   const heroes = await listHeroes();
-  const result = heroes.find((item) => item.id === heroId);
+  const result = heroes.find((item) => item._id === heroId);
   return result || null;
 };
 
@@ -20,7 +20,7 @@ const deleteHeroByID = async (heroId) => {
   console.log("deleteHeroByID", heroId);
   const heroes = await listHeroes();
 
-  const index = heroes.findIndex((item) => item.id === heroId);
+  const index = heroes.findIndex((item) => item._id === heroId);
 
   if (index === -1) {
     return null;
@@ -35,7 +35,7 @@ const addHero = async (req) => {
   const heroes = await listHeroes();
 
   const newHero = {
-    id: v4(),
+    _id: v4(),
     ...req,
     // nickname: req.nickname,
     // real_name: req.real_name,
@@ -53,13 +53,13 @@ const addHero = async (req) => {
 const updateHero = async (heroId, body) => {
   const heroes = await listHeroes();
 
-  const index = heroes.findIndex((item) => item.id === heroId);
+  const index = heroes.findIndex((item) => item._id === heroId);
 
   if (index === -1) {
     return null;
   }
 
-  heroes[index] = { id: heroId, ...body };
+  heroes[index] = { _id: heroId, ...body };
   await updateData(heroes);
   return heroes[index];
 };
