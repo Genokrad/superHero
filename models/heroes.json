@@ -166,5 +166,13 @@
     "origin_description": "Batman",
     "superpowers": "Money",
     "catch_phrase": "Batman"
+  },
+  {
+    "_id": "05cd816c-ade4-4990-8bc9-2113420d9865",
+    "nickname": "benzaMen",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
   }
 ]
