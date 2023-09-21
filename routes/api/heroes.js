@@ -6,7 +6,7 @@ const ctrl = require("../../controllers");
 const { ctrlWrapper } = require("../../helpers");
 // const { ctrlWrapper, validateBody } = require("../../helpers");
 // const { addSchema } = require("../../schemas/hero");
-
+//
 router.get("/", ctrlWrapper(ctrl.listHeroes));
 
 router.get("/:heroId", ctrlWrapper(ctrl.getHeroById));
