@@ -16,19 +16,32 @@ const getHeroById = async (heroId) => {
   return result || null;
 };
 
-const removeHero = async (heroId) => {};
+const deleteHeroByID = async (heroId) => {
+  console.log("deleteHeroByID", heroId);
+  const heroes = await listHeroes();
+
+  const index = heroes.findIndex((item) => item.id === heroId);
+
+  if (index === -1) {
+    return null;
+  }
+
+  const deletedHero = heroes.splice(index, 1);
+  updateData(heroes);
+  return deletedHero[0] || null;
+};
 
 const addHero = async (req) => {
   const heroes = await listHeroes();
-  // const { nickname, real_name, phone } = req;
-  console.log(req);
+
   const newHero = {
     id: v4(),
-    nickname: req.nickname,
-    real_name: req.real_name,
-    origin_description: req.origin_description,
-    superpowers: req.superpowers,
-    catch_phrase: req.catch_phrase,
+    ...req,
+    // nickname: req.nickname,
+    // real_name: req.real_name,
+    // origin_description: req.origin_description,
+    // superpowers: req.superpowers,
+    // catch_phrase: req.catch_phrase,
   };
 
   heroes.push(newHero);
@@ -37,12 +50,24 @@ const addHero = async (req) => {
   return newHero;
 };
 
-const updateHero = async (heroId, body) => {};
+const updateHero = async (heroId, body) => {
+  const heroes = await listHeroes();
+
+  const index = heroes.findIndex((item) => item.id === heroId);
+
+  if (index === -1) {
+    return null;
+  }
+
+  heroes[index] = { id: heroId, ...body };
+  await updateData(heroes);
+  return heroes[index];
+};
 
 module.exports = {
   listHeroes,
   getHeroById,
-  removeHero,
+  deleteHeroByID,
   addHero,
   updateHero,
 };

@@ -1,9 +1,11 @@
 [
   {
     "id": "AeHIrLTr6JkxGE6SN-0Rw",
-    "name": "Allen Raymond",
-    "email": "nulla.ante@vestibul.co.uk",
-    "phone": "(992) 914-3792"
+    "nickname": "Batman",
+    "real_name": "Batman",
+    "origin_description": "Batman",
+    "superpowers": "Money",
+    "catch_phrase": "Batman"
   },
   {
     "id": "qdggE76Jtbfd9eWJHrssH",
@@ -60,8 +62,160 @@
     "phone": "(748) 206-2688"
   },
   {
-    "id": "b2f1fdbd-351b-485c-b8c3-ffdd7fc8c280",
+    "id": "bc1f62fa-b2db-42bc-8f72-217785cfd0f4",
     "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "04d3ac47-5bf7-4c46-9103-c9ed9d88e6b7",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "343d9086-f8f1-443a-ba86-9d0c0e00ec1f",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "63d98fe1-4b8d-4ae9-b6b0-1235932c5a8d",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "99f7b7a5-e531-42b7-8f3f-cfbaa3e7455e",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "690a4de7-d489-42c0-9724-7d3f22b5ee0c",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "32899c1a-5302-49f9-a035-2c089b4e4800",
+    "nickname": "Batman",
+    "real_name": "Batman",
+    "origin_description": "Batman",
+    "superpowers": "Money",
+    "catch_phrase": "Batman"
+  },
+  {
+    "id": "ff2274c5-ce27-4e96-98d8-496f608e4a0e",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "809ff419-c54c-429f-ae62-788aa368bcbd",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "5e9f276c-860d-498a-9b55-a8eca323185e",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "4f4c7f04-4279-40df-894f-46a3196af131",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "d5249c87-7f53-4ea0-b37c-a91d031e70e1",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "83e5958f-539b-4241-b03f-bfa822fb3146",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "21d57b97-d4ce-433e-a5dc-85e187a2f1b4",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "f8c1e1eb-108a-4fac-a707-a5468aebedb2",
+    "nickname": "Superman",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "904f3d01-f4e8-45d0-98e4-f3ba4e679de0",
+    "nickname": "benzaMen",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "850c2f54-6589-47bf-bfbf-8a2b5a9cb11c",
+    "nickname": "benzaMen",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "8926fa58-d1b0-4dd9-8b00-0b8186ad689d",
+    "nickname": "benzaMen",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "04712493-07a3-4e7f-af37-3c215f31e724",
+    "nickname": "benzaMen",
+    "real_name": "Clark Kent",
+    "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
+    "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
+    "catch_phrase": "Look, up in the sky, it's a bird, it's a plane, it's Superman!"
+  },
+  {
+    "id": "61b2cceb-ee7c-4105-9527-a6cb88a98f3a",
+    "nickname": "benzaMen",
     "real_name": "Clark Kent",
     "origin_description": "he was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction...",
     "superpowers": "solar energy absorption and healing factor, solar flare and heat vision, solar invulnerability, flight...",
