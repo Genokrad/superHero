@@ -3,6 +3,10 @@ const { handleMongooseError } = require("../helpers");
 
 const heroSchema = new Schema(
   {
+    _id: {
+      type: String,
+      required: true,
+    },
     nickname: {
       type: String,
       required: true,
@@ -22,6 +26,10 @@ const heroSchema = new Schema(
     catch_phrase: {
       type: String,
       required: true,
+    },
+    imageUrl: {
+      type: String,
+      required: false,
     },
   },
   {
