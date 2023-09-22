@@ -31,10 +31,10 @@ const addHero = async (req, res) => {
     const { path: tempDir } = req.file;
     // const { path: tempDir, originalname } = req.file;
     const resultUpload = path.join(heroesDir, `${id}.webp`);
-    console.log(requestWithId);
+    // console.log(requestWithId);
     await fs.rename(tempDir, resultUpload);
     const cover = path.join("heroes", `${id}.webp`);
-    // const newHero = [cover];
+
     const resultForDB = { ...requestWithId, imageUrl: cover };
     const result = await Hero.create(resultForDB);
     res.status(201).json(result);

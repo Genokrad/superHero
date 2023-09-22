@@ -19,9 +19,9 @@ router.get("/:heroId", ctrlWrapper(ctrl.getHeroById));
 
 router.post("/", upload.single("image"), ctrlWrapper(ctrl.addHero));
 
-router.put("/:heroId", ctrlWrapper(ctrl.updateHero));
+router.put("/:heroId", upload.single("image"), ctrlWrapper(ctrl.updateHero));
 
-router.patch("/:heroId/images", ctrlWrapper(ctrl.updateImages));
+// router.patch("/:heroId/images", ctrlWrapper(ctrl.updateImages));
 
 router.delete("/:heroId", ctrlWrapper(ctrl.deleteHero));
 

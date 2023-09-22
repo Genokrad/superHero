@@ -6,7 +6,7 @@ const getHeroById = async (req, res) => {
   const { heroId } = req.params;
   console.log(heroId);
   // const result = await heroes.getHeroById(heroId);
-  const result = await Hero.findById({ _id: heroId });
+  const result = await Hero.findById(heroId);
   console.log(result);
   if (!result) {
     throw HttpError(404, "Hero not found");
