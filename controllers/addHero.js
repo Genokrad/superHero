@@ -1,6 +1,7 @@
 const { HttpError } = require("../helpers");
-const heroes = require("../models/heroes");
+// const heroes = require("../models/heroes");
 const Joi = require("joi");
+const Hero = require("../models/hero");
 
 const addSchema = Joi.object({
   nickname: Joi.string().required(),
@@ -18,8 +19,10 @@ const addHero = async (req, res) => {
   if (error) {
     throw HttpError(400, error.message);
   } else {
-    const result = await heroes.addHero(req.body);
+    const result = await Hero.create(req.body);
     res.status(201).json(result);
+    // const result = await heroes.addHero(req.body);
+    // res.status(201).json(result);
   }
   // } catch (error) {
   //   next(error);

@@ -4,14 +4,10 @@ const Joi = require("joi");
 const Hero = require("../models/hero");
 
 const addSchema = Joi.object({
-  nickname: Joi.string().required(),
-  real_name: Joi.string().required(),
-  origin_description: Joi.string().required(),
-  superpowers: Joi.string().required(),
-  catch_phrase: Joi.string().required(),
+  images: Joi.array().items(Joi.string().uri().required()),
 });
 
-const updateHero = async (req, res) => {
+const updateImages = async (req, res) => {
   const { error } = addSchema.validate(req.body);
   if (error) {
     throw HttpError(400, error.message);
@@ -28,4 +24,4 @@ const updateHero = async (req, res) => {
   }
 };
 
-module.exports = updateHero;
+module.exports = updateImages;

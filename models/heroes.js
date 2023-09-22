@@ -37,11 +37,6 @@ const addHero = async (req) => {
   const newHero = {
     _id: v4(),
     ...req,
-    // nickname: req.nickname,
-    // real_name: req.real_name,
-    // origin_description: req.origin_description,
-    // superpowers: req.superpowers,
-    // catch_phrase: req.catch_phrase,
   };
 
   heroes.push(newHero);
