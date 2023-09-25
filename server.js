@@ -28,3 +28,6 @@ mongoose
 //   console.log(error.message);
 //   process.exit(1);
 // });
+
+const some = "4";
+some = 3;
