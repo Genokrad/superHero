@@ -19,8 +19,10 @@ const heroesDir = path.join(__dirname, "../", "public", "heroes");
 
 const addHero = async (req, res) => {
   const request = JSON.parse(req.body.jsonData);
+  delete request.image;
   const id = v4();
   const requestWithId = { _id: id, ...request };
+
   // try {
   const { error } = addSchema.validate(requestWithId);
   // const result = await heroes.addHero(req.body);
@@ -30,10 +32,10 @@ const addHero = async (req, res) => {
   } else {
     const { path: tempDir } = req.file;
     // const { path: tempDir, originalname } = req.file;
-    const resultUpload = path.join(heroesDir, `${id}.webp`);
+    const resultUpload = path.join(heroesDir, `${id}.jpg`);
     // console.log(requestWithId);
     await fs.rename(tempDir, resultUpload);
-    const cover = path.join("heroes", `${id}.webp`);
+    const cover = path.join("heroes", `${id}.jpg`);
 
     const resultForDB = { ...requestWithId, imageUrl: cover };
     const result = await Hero.create(resultForDB);
